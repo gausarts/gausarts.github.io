@@ -54,26 +54,54 @@
                           you have one. Be sure to enable the requested permissions. If not, useless.
                           <hr>
                         </p>
+                        <p><b>Private and Public gates differences?</b><br>
+                          <b>Private</b>:
+                          <ul><li>requires login via app to access both private and public accounts.</li><li>can only use the web interface provided by the app.</li><li>Can download anywhere by long pressing thumbnails. Or press the Instagram <b>Bookmark</b> icon at full page. Or hit Instagram <b>Copy link</b> like seen at public accounts</li><li>Can scrape both private or public accounts.</li></ul>
+                          <b>Public</b>:
+                          <ul><li>doesn't require a login via this app to access public or private accounts.</li><li>can use Instagram app, or browsers.</li><li>can only download via Instagram <b>Copy link</b> at public or private accounts</li><li>can not scrape.</b></li></ul>
+                          Due to the latest restrictions, you must supply your nothing-to-lose Instagram account credentials via <b>Settings > Private mode</b> in order to make it work for both public and private accounts. No need to be the same as the currently-in-use Instagram account, except for private accounts (at least both accounts should follow the same private account).
+                          <hr>
+                        </p>
                         <p><b>How does downloading private account media work?</b><br>
-                          <b>Two ways:</b><br> 1. Long press a media (such as at /explore, /tags, /search or profile pages, any page which list thumbnails) to save. The app will download it when you signal a long press. <br>2. Visit its full page, and hit the
-                          provided button to download. Login is required so that the app can see what you see without any special authorization. The app does not read, know, store nor care about your credentials. It just borrows your authorized eyes
-                          under the hood.
+                          <b>Three ways:</b><br> <ol><li>Long press a media (such as at /explore, /tags, /search or profile pages, any page which list small thumbnails) to save. The app will download it when you signal a long press.</li><li>Visit its full page, and hit or press the Instagram <b>Bookmark</b> icon at full page.</li><li>Use Instagram app, and hit regular <b>Copy link</b> for both public and private accounts.</li></ol>
+                          For the first two, login via app web interface is required so that the app can see what you see without any special authorization. The app does not care about your credentials. It just borrows your authorized eyes under the hood due to Instagram restrictions.
                           <hr>
                         </p>
                         <p><b>How does Instagram scraping work?</b><br>
-                          It is a simple one, not so robust. Needs manual intervention due to the pages are dynamically built and destroyed client-side. <br><b>Steps:</b> <br>1. Scroll to the bottom of the page to begin collecting links, and up again
-                          to verify links collected. Or keep hitting <b>Rescan</b> to auto-scroll till the bottom reached. <br>2. Hit the Scrape button, and wait for the spider to finish its job.
+                          It is not real scraping. Scraping word is used to simplify the wordings. It is more like download-multiple-files-once than regular scraping. Needs manual intervention due to the pages are dynamically built and destroyed client-side. <br><b>Steps:</b> <br><ol><li>Scroll to the bottom of the page to begin collecting links, and up again
+                          to verify links collected. Or keep hitting <b>Rescan</b> to auto-scroll till the bottom reached. </li><li>Hit the <b>Scrape</b> button, and wait for the spider to finish its job.</li></ol>
+                          Again this is not scraping. It is just a convenient way to download multiple files at one click. Use it wisely and responsibly for good purposes.
                           <hr>
                         </p>
                         <p><b>Instagram scraping requirements?</b><br>
-                          - Currently only works for profile pages with small thumbnails, not those with large images. Although scraping /tags, or /explore pages is doable, we'll postpone this feature till enough requests. <br>- Strong internet
-                          connection. <br>- Large size of device external storage (30gb+ to play safe), else you will be locked down due to out of space exception. Do not panic, though. Just hit <b>Abort</b>. Manage your space, move or delete files.
-                          Switch or plug in a new empty card. Be sure to select it via <b>Organize directories</b>.
+                        <ul><li>Currently only works for profile pages with small thumbnails, not those with large images. Although scraping /tags, or /explore pages is doable, we'll postpone this feature till enough requests.</li><li>Strong internet
+                          connection.</li><li>Large size of device external storage (30gb+ to play safe), else you will be locked down due to out of space exception. Do not panic, though. Just kill the app, or power-off the device at worst. Manage your space, move or delete files.
+                          Switch or plug in a new empty card. Be sure to select it via <b>Organize directories</b>.</li></ul>
                           <hr>
                         </p>
                         <p><b>Is scraping safe for my account?</b><br>
-                          No. Use at your own risk. You had been warned before scraping, you will get banned. If not prepared, and not knowing how to play safe yourself, do not be tempted to scrape. Necessary measures had been provided to minimize
-                          the ban algorithm triggers such as to make it behave like human, no guarantee whatsoever.
+                          No. Use at your own risk. It is forbidden. You had been warned before scraping, you will get banned. If not prepared, and not knowing how to play safe yourself, do not be tempted to scrape. Necessary measures had been provided to minimize
+                          the ban algorithm triggers such as to make it behave like human, reduces rate limits, persistent UA and cookies, etc. No guarantees whatsoever.
+                          <hr>
+                        </p>
+                        <p><b>Can I navigate away while scraping?</b><br>
+                          Yes, scraping is conducted at another thread. Not your main UI thread. But that mean you are doing several things simultaneously which immediately smell like human bot behaviors. Staying tuned till all downloads are finished is recommended unless you provide different accounts via <b>Settings > Private mode</b>.
+                          <hr>
+                        </p>
+                        <p><b>What does <i>play safe</i> mean?</b><br>
+                          Scraping is bot behaviors, not human. Bots are banned, mostly.
+                          <b>Play safe:</b>
+                          <ul>
+                            <li>Behave like human, click, open, close, back, scroll up and down. Do not repeat the same task too much, including donwload, or even like, too much. Don't do anything just too much. Anything preceded by too is not good, including too good.</li>
+                            <li>Stop downloading anything when reaching 300 per 24 hour. Unless you are caught earlier. You will be prompted a number when scraping, make a note.</li>
+                            <li>Only scrap 100 at most at a time. You can rescan and rescrap the rest tomorrow.</li>
+                            <li>Have backup accounts, many.</li>
+                            <li>Anything against the above is not safe at all. You had been warned. Do trials and errors at your own descretion.</li>
+                          </ul>
+                          <hr>
+                        </p>
+                        <p><b>What is <i>Organize directories</i> for?</b><br>
+                          To organize your pictures/ videos thematically for offline convenience. You can put wild life media into <b>Wildlife</b> folder, food and beverages into <b>Cooking</b>, etc. Above all, you can put them all into an external removable disk for greater storage rooms rather than being stored internally.
                           <hr>
                         </p>
                         <p><b>The app is not functioning when I remove my SD card?</b><br>
