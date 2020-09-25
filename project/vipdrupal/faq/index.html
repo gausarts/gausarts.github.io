@@ -16,12 +16,7 @@
   <link rel="revision" href="/project/vipdrupal/faq" />
   <title>FAQ | gaus</title>
   <style>
-    @media screen and (max-width: 1025px) {
-      .page__title {
-        visibility: hidden;
-        position: absolute;
-      }
-    }
+    html,body,.root{padding:0;margin:0;font-size:18px;line-height:1.2;overflow-x:hidden}details[open] summary~*{animation:open .3s ease-in-out}@keyframes open{0%{opacity:0}100%{opacity:1}}details summary::-webkit-details-marker{display:none}details summary{width:100%;padding:.75rem 0;border-top:1px solid rgba(0,0,0,.4);position:relative;cursor:pointer;font-size:.92rem;font-weight:300;list-style:none}details summary:after{content:"+";color:#999;position:absolute;font-size:1rem;line-height:0;margin-top:.5rem;right:0;font-weight:200;transform-origin:center;transition:200ms linear}details[open] summary:after{transform:rotate(45deg)}details summary{outline:0}details>div,details>p,details>ul,details>ol{font-size:.92rem;line-height:1.6;margin:0 0 1rem;padding-top:1rem}@media screen and (max-width: 1025px){.page__title{visibility:hidden;position:absolute}}
   </style>
 </head>
 
@@ -56,85 +51,153 @@
                     <header><span property="schema:name" content="FAQ" class="rdf-meta hidden"></span></header>
                     <div class="node__content clearfix">
                       <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                        <p><b>Where are the podcasts stored?</b><br>
-                          At your SD (secondary or external) card (<b>Internal storage > Podcasts > DruPocket</b> or <b>SD card/removable storage > DruPocket > Podcasts</b>). Or your folder of choice at a removable storage if
-                          you have one. Be sure to enable the requested permissions. If not, useless.
-                          <hr>
-                        </p>
-                        <p><b>How to update the latest news?</b><br>
-                          Pull down the news list at app home to refresh. Configure it at <b>Settings > Performance > Always update</b>. At individual feed pages, you can also update news per feed using the header refresh button.</p>
-                        <p><b>How does Youtube integration works? And what for?</b><br>
-                          It requires the default Android Youtube player enabled. Be sure to have it installed. <br>Click the top left menu, find <b>Add feed</b> menu, and add your Youtube feeds. Or type something when the Youtube window is
-                          opened.<br>
-                          It is to quickly search Youtube given the contextual data. Useful for further study, or personal collections. Please bear in mind, the search functionality may stop working when reaching 1M unit quota limit. At least for
-                          now. Just carry on. If you enable saving data locally (see <b>Settings</b>), browsing, or viewing videos, should work, though.
-                          <hr>
-                        </p>
-                        <p><b>Youtube video plays a while, and stopped?</b><br>
-                          Play the video in the fullscreen mode. It is a known issue when an element overlays the player, then it will stop. This happens if you toggle the drawer, or bottomsheets, etc. which covers the player, or the player thinks it
-                          is being covered.
-                          <hr>
-                        </p>
-                        <p><b>How to download my favorites?</b><br>
-                          You must allow the required permissions in order to function (<b>Setttings > Apps > DruPocket for Drupal > Permissions</b>). Then go to <b>Favorites</b> tab. Hit the download button at the bottom, only visible when you have
-                          one. The CSV file, which you can open with Excel, LibreOffice, or alike, is stored at your SD card: <b>drupalpocket-faves.csv</b>. If you want to get it at your email, fill out the email at the <b>Settings > External
-                            storage, email</b>.
-                          <hr>
-                        </p>
-                        <p><b>How to jump to a specific page?</b><br>
-                          Type any number at search box. Only applicable at fullscreen content pages, not home, or non-content ones.
-                          <hr>
-                        </p>
-                        <p><b>How to remove the floating small podcast player on the top right?</b><br>
-                          Long tap the player, and tap the close button when expanded.
-                          <hr>
-                        </p>
-                        <p><b>How to view original article?</b><br>
-                          Hit the <b>Read on the Web</b> link.
-                          <hr>
-                        </p>
-                        <p><b>I want hamburger, not home-back arrow.</b><br>
-                          Go to <b>Settings > Appearance > Hamburger everywhere</b>. Enable to show hamburger everywhere. Useful for quick access to menu items. Then you can use your device navbar back arrow to go home. You can also swipe from the
-                          left edge to reveal the menu.
-                          <hr>
-                        </p>
-                        <p><b>The fonts are too small for my large device.</b><br>
-                          Go to the app <b>Settings > Articles</b>. Adjust the list and fullscreen font sizes as needed.
-                          <hr>
-                        </p>
-                        <p><b>Some features not functioning?</b><br>
-                          Visit Android <b>Settings > Apps > DruPocket for Drupal > Permissions</b>. Check the 3 dot menu on the top right to view <b>All permissions</b>. Enable permissions as needed. Anything disabled will not function. Don't be
-                          scared by descriptions unless you distrust the app developer. DruPocket for Drupal is harmless regardless of spooky descriptions.
-                          <hr>
-                        </p>
-                        <p><b>The code block font size is too small</b><br>
-                          Tap the code block to zoom, and adjust the base font size at the <b>Settings > Articles</b>.
-                          <hr>
-                        </p>
-                        <p><b>Sometimes I get news real fast, sometimes slow?</b><br>
-                          First check your internet connection. Also each feed is fetched and parsed from the original site. A site may be down or on maintenance, or in busy server. The rest are just live at a strong and fast server. Bear with it.
-                          <hr>
-                        </p>
-                        <p><b>How to edit my feed?</b><br>
-                          Long tap any feed at any feed display. Short tap will launch a new window if the feed already has contents.
-                          <hr>
-                        </p>
-                        <p><b>I subscribed to a feed, but see 0, or nothing?</b><br>
-                          Please allow a few seconds for the app to fetch from the internet and populate or store into database before properly being displayed. Slow internet connection may also delay the output.
-                          <hr>
-                        </p>
-                        <p><b>I cannot get Reddit news?</b><br>
-                          Some ISPs, like mine in Indonesia, block Reddit. We cannot do anything about this, yet. Use a VPN, DNSCrypt, via-ssh, KPNTunnel, proxy switcher, etc. to unblock it as needed.
-                          <hr>
-                        </p>
-                        <p><b>Have questions, suggestions, bug reports, or feedback?</b><br>
-                          We love to hear from you! Please use the Feedback, and rate our app. Any bitter, yet constructive, criticism will help us gain some strength to continue. <i>One of your life purposes is to help others. If you can't help
-                            people, at least don't hurt them</i>, says Dalai Lama. Thank you!
-                          <hr>
-                        </p>
-                        <p><b>Tips!</b><br>
-                          Basically quick tap anything to access default displays. Long tap to reveal shortcuts, quick info, or particular behaviors such as editor form, etc. where applicable. Swipe left gently on each vertical list item to reveal
-                          contextual menu. If Youtube video stops, tap the fullscreen mode. If something broken, try restarting the app, and see if any better.</p>
+                        <details>
+                          <summary>Where are the podcasts stored?</summary>
+                          <div>
+                            At your SD (secondary or external) card:
+                            <ul>
+                              <li><b>Internal storage > Podcasts > DruPocket</b></li>
+                              <li><b>SD card/removable storage > DruPocket > Podcasts</b></li>
+                              <li>Or your folder of choice at a removable storage if you have one.</li>
+                            </ul>
+                            This way the data is more managable at larger storage. You can always change locations to organize better, no problems. Be sure to enable the requested permissions. If not, useless.
+
+                          </div>
+                        </details>
+                        <details>
+                          <summary>How to update the latest news?</summary>
+                          <div>
+                            Pull down the news list at app home to refresh. Configure it at <b>Settings > Performance > Always update</b>. At individual feed pages, you can also update news per feed using the header refresh button.
+                          </div>
+                        </details>
+                        <details>
+                          <summary>How does Youtube integration works? And what for?</summary>
+                          <div>
+                            It requires the default Android Youtube player enabled. Be sure to have it installed. <br>Click the top left menu, find <b>Add feed</b> menu, and add your Youtube feeds. Or type something when the Youtube window is
+                            opened.<br>
+                            It is to quickly search Youtube given the contextual data. Useful for further study, or personal collections. Please bear in mind, the search functionality may stop working when reaching 1M unit quota limit. At least
+                            for
+                            now. Just carry on. If you enable saving data locally (see <b>Settings</b>), browsing, or viewing videos, should work, though.
+
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Youtube video plays a while, and stopped?</summary>
+                          <div>
+                            Play the video in the fullscreen mode. It is a known issue when an element overlays the player, then it will stop. This happens if you toggle the drawer, or bottomsheets, etc. which covers the player, or the player
+                            thinks it
+                            is being covered.
+
+                          </div>
+                        </details>
+                        <details>
+                          <summary>How to download my favorites?</summary>
+                          <div>
+                            You must allow the required permissions in order to function (<b>Setttings > Apps > DruPocket for Drupal > Permissions</b>). Then go to <b>Favorites</b> tab. Hit the download button at the bottom, only visible when
+                            you have
+                            one. The CSV file, which you can open with Excel, LibreOffice, or alike, is stored at your SD card: <b>drupalpocket-faves.csv</b>. If you want to get it at your email, fill out the email at the <b>Settings >
+                              External
+                              storage, email</b>.
+
+                          </div>
+                        </details>
+                        <details>
+                          <summary>How to jump to a specific page?</summary>
+                          <div>
+                            Type any number at search box. Only applicable at fullscreen content pages, not home, or non-content ones.
+
+                          </div>
+                        </details>
+                        <details>
+                          <summary>How to remove the floating small podcast player on the top right?</summary>
+                          <div>
+                            Long tap the player, and tap the close button when expanded.
+
+                          </div>
+                        </details>
+                        <details>
+                          <summary>How to view original article?</summary>
+                          <div>
+                            Hit the <b>Read on the Web</b> link.
+
+                          </div>
+                        </details>
+                        <details>
+                          <summary>I want hamburger, not home-back arrow.</summary>
+                          <div>
+                            Go to <b>Settings > Appearance > Hamburger everywhere</b>. Enable to show hamburger everywhere. Useful for quick access to menu items. Then you can use your device navbar back arrow to go home. You can also
+                            swipe from the
+                            left edge to reveal the menu.
+
+                          </div>
+                        </details>
+                        <details>
+                          <summary>The fonts are too small for my large device.</summary>
+                          <div>
+                            Go to the app <b>Settings > Articles</b>. Adjust the list and fullscreen font sizes as needed.
+
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Some features not functioning?</summary>
+                          <div>
+                            Visit Android <b>Settings > Apps > DruPocket for Drupal > Permissions</b>. Check the 3 dot menu on the top right to view <b>All permissions</b>. Enable permissions as needed. Anything disabled will not
+                            function. Don't be
+                            scared by descriptions unless you distrust the app developer. DruPocket for Drupal is harmless regardless of spooky descriptions.
+
+                          </div>
+                        </details>
+                        <details>
+                          <summary>The code block font size is too small</summary>
+                          <div>
+                            Tap the code block to zoom, and adjust the base font size at the <b>Settings > Articles</b>.
+
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Sometimes I get news real fast, sometimes slow?</summary>
+                          <div>
+                            First check your internet connection. Also each feed is fetched and parsed from the original site. A site may be down or on maintenance, or in busy server. The rest are just live at a strong and
+                            fast server. Bear with it.
+
+                          </div>
+                        </details>
+                        <details>
+                          <summary>How to edit my feed?</summary>
+                          <div>
+                            Long tap any feed at any feed display. Short tap will launch a new window if the feed already has contents.
+
+                          </div>
+                        </details>
+                        <details>
+                          <summary>I subscribed to a feed, but see 0, or nothing?</summary>
+                          <div>
+                            Please allow a few seconds for the app to fetch from the internet and populate or store into database before properly being displayed. Slow internet connection may also delay the output.
+
+                          </div>
+                        </details>
+                        <details>
+                          <summary>I cannot get Reddit news?</summary>
+                          <div>
+                            Some ISPs, like mine in Indonesia, block Reddit. We cannot do anything about this, yet. Use a VPN, DNSCrypt, via-ssh, KPNTunnel, proxy switcher, etc. to unblock it as needed.
+
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Have questions, suggestions, bug reports, or feedback?</summary>
+                          <div>
+                            We love to hear from you! Please use the Feedback, and rate our app. Any bitter, yet constructive, criticism will help us gain some strength to continue. <i>One of your life purposes is to help others. If you can't help people, at least don't hurt them</i>, says Dalai Lama. Thank you!
+
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Tips!</summary>
+                          <div>
+                            Basically quick tap anything to access default displays. Long tap to reveal shortcuts, quick info, or particular behaviors such as editor form, etc. where applicable. Swipe left gently on
+                            each vertical list item to reveal
+                            contextual menu. If Youtube video stops, tap the fullscreen mode. If something broken, try restarting the app, and see if any better.
+                          </div>
+                        </details>
                       </div>
                     </div>
                   </article>
