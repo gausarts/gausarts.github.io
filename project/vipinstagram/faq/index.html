@@ -15,7 +15,9 @@
   <link rel="canonical" href="/project/vipinstagram/faq" />
   <link rel="revision" href="/project/vipinstagram/faq" />
   <title>FAQ | gaus</title>
-  <style>@media screen and (max-width: 1025px) {.page__title {visibility: hidden; position: absolute;}}</style>
+  <style>
+    html,.root{padding:0;margin:0;font-size:18px}details[open] summary~*{animation:open .3s ease-in-out}@keyframes open{0%{opacity:0}100%{opacity:1}}details summary::-webkit-details-marker{display:none}details summary{width:100%;padding:.5rem 0;border-top:1px solid #000;position:relative;cursor:pointer;font-size:1rem;font-weight:600;list-style:none}details summary:after{content:"+";color:#000;position:absolute;font-size:1.75rem;line-height:0;margin-top:.75rem;right:0;font-weight:200;transform-origin:center;transition:200ms linear}details[open] summary:after{transform:rotate(45deg);font-size:2rem}details summary{outline:0}details > div, details > p, details > ul, details > ol{font-size:.95rem;margin:0 0 1rem;padding-top:1rem}@media screen and (max-width: 1025px){.page__title{visibility:hidden;position:absolute}}
+  </style>
 </head>
 
 <body class="layout-no-sidebars path-node page-node-type-page">
@@ -49,166 +51,329 @@
                     <header><span property="schema:name" content="FAQ" class="rdf-meta hidden"></span></header>
                     <div class="node__content clearfix">
                       <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                        <p><b>Where are the pictures and videos stored?</b><br>
-                          At your SD (secondary or external) card (<b>Internal storage > Pictures|Movies > VIP Downloader</b> or <b>SD card/Removable storage > VIP Downloader > Pictures|Movies</b>). Or your folder of choice at a removable storage if
-                          you have one. Be sure to enable the requested permissions. If not, useless.
-                          <hr>
-                        </p>
-                        <p><b>Private and Public gates differences?</b><br>
-                          <b>Private/ internal</b>:
-                          <ul><li>can only use the web interface provided by the app.</li><li>requires login via app to access both private and public accounts.</li><li>can download anywhere by long pressing thumbnails. Or press the Instagram <b>Bookmark</b> icon at full page. Or hit Instagram <b>Copy link</b> like seen at public accounts</li><li>can scrape both private or public accounts.</li></ul>
-                          <b>Public/ external</b>:
-                          <ul><li>can use Instagram app, or browsers.</li><li>doesn't require a login via this app to access public or private accounts.</li><li>can only download via Instagram <b>Copy link</b> at public or private accounts</li><li>can not scrape.</b></li></ul>
-                          Due to the latest restrictions, providing a dummy or nothing-to-lose Instagram account is required via <b>Settings > Private mode</b> in order to make it work for both public and private accounts. No need to be the same as the currently-in-use Instagram account, except for private accounts (or at least both accounts, if different, should follow the same private accounts).
-                          <hr>
-                        </p>
-                        <p><b>How to edit my created hashtags?</b><br>
-                          Click or long press the item on its listing page.
-                          <hr>
-                        </p>
-                        <p><b>I copied hashtags and captions, now what?</b><br>
-                          Hit <b>Repost</b> button. At Instagram, when prompted to add caption, simply long press on the textarea, and press <b>Paste</b> prompt.
-                          <hr>
-                        </p>
-                        <p><b>How does downloading private account media work?</b><br>
-                          <b>Three ways:</b><br> <ol><li>Long press a media thumbnail (such as seen at /explore, /tags, /search or profile pages, any page which list small thumbnails) to save. The app will download it when you signal a long press.</li><li>Visit its full page, and hit or press the Instagram <b>Bookmark</b> icon at full page.</li><li>Use Instagram app, and hit regular <b>Copy link</b> for both public and private accounts.</li></ol>
-                          For the first two, login via app web interface is required so that the app can see what you see without any special authorization. The app does not care about your credentials. It just borrows your authorized eyes under the hood due to Instagram restrictions.
-                          <hr>
-                        </p>
-                        <p><b>How does Instagram scraping work?</b><br>
-                          It is not real scraping. Scraping word is used to simplify the wordings. It is more like download-multiple-files-once than regular scraping. Needs manual intervention due to the pages are dynamically built and destroyed client-side. <br><b>Steps:</b> <br><ol><li>Scroll to the bottom of the page to begin collecting links, and up again
-                          to verify links collected. Or keep hitting <b>Rescan</b> to auto-scroll till the bottom reached. </li><li>Hit the <b>Scrape</b> button, and wait for the spider to finish its job.</li></ol>
-                          Again this is not scraping. It is just a convenient way to download multiple files at one click. Use it wisely and responsibly for good purposes.
-                          <hr>
-                        </p>
-                        <p><b>Instagram scraping requirements?</b><br>
-                        <ul><li>Currently only works for profile pages with small thumbnails, not those with large images. Although scraping /tags, /explore, or practically any pages is doable, this feature is postponed till enough requests.</li><li>Strong internet
-                          connection.</li><li>Large size of device external storage (30gb+ to play nice), else you will be locked down due to out of space exception. Do not panic, though. Just kill the app, or power-off the device at worst. Manage your space, move or delete files.
-                          Switch or plug in a new empty card. Be sure to select it via <b>Organize directories</b>.</li></ul>
-                          <hr>
-                        </p>
-                        <p><b>Can I navigate away while scraping?</b><br>
-                          Yes, as long as the app web interface displaying Instagram is opened. Scraping is run at another thread. Not your main UI thread. But that means you are doing several things simultaneously which immediately smells like human bot behaviors. Staying tuned till all downloads are finished is recommended unless you provide different accounts via <b>Settings > Private mode</b>.
-                          <hr>
-                        </p>
-                        <p><b>Is scraping safe for my account?</b><br>
-                          No. Use at your own risk. Use a dummy account. It is not allowed. You had been warned before scraping. If not prepared, and not knowing how to play nice, do not scrape. Necessary measures had been provided to minimize the algorithm triggers such as to make it behave like human with some configurable intervals, reduces rate limits, persistent UA and cookies, etc. No guarantees whatsoever.
-                          <hr>
-                        </p>
-                        <p><b>Any recommendations?</b><br>
-                          No recommendations. Unfortunately scraping is bot behaviors, hardly human. Bots are b.a.n.n.e.d, mostly. Just know what you are doing. Common sense applies:
-                          <ul>
-                            <li>Normal human actions: click, open, close, back, scroll up and down. Do not repeat the same task too much, including donwload, or even like, too much. Don't do anything just too much. Anything preceded by too is not good, including too good.</li>
-                            <li>Stop downloading anything when reaching 300 per 24 hour. Unless you are caught earlier. You will be prompted a number when scraping, make a note.</li>
-                            <li>Only download 100 at most at a time. You can rescan the rest tomorrow.</li>
-                            <li>Have backup dummy accounts, many.</li>
-                            <li>Use different dummy accounts, follow the same private one. Input the first at <b>Settings > Private mode</b>. The other at Instagram.</li>
-                            <li>Use the same dummy accounts, and do trials and errors at your own descretion.</li>
-                          </ul>
-                          <hr>
-                        </p>
-                        <p><b>What is <i>Organize directories</i> for?</b><br>
-                          To organize your pictures/ videos thematically for offline convenience. You can put wild life media into <b>Wildlife</b> folder, food and beverages into <b>Cooking</b>, etc. Above all, you can put them all into an external removable disk for greater storage rooms rather than being stored internally.
-                          <hr>
-                        </p>
-                        <p><b>The app is not functioning when I remove my SD card?</b><br>
-                          Yes, of course. If you chose a removable SD card for storage, then removed/ plugged out, the app has no way to fetch its stored data. Unless you have multiple slots. Plugging it back in should make the app functional again.
-                          <hr>
-                        </p>
-                        <p><b>I forgot my PIN. How to reset?</b><br>
-                          Please note the PIN. Visit Android system settings (<b>Settings > Apps > VIP Downloader > Storage > Clear data</b>). This app's data will be lost like first install. Your downloaded photos and videos are safe at the
-                          above-mentioned storage, but no longer accessible by this app. In order to have a functional app again with the old data, rebuild database based on your database backup at runtime. Visit <b>Settings > Database > Rebuild
-                            database</b>. This app should be functional again.
-                          <hr>
-                        </p>
-                        <p><b>I purchase the pro version. How to migrate old data into new app?</b><br>
-                          Visit <b>Settings > Database > Migrate database</b>. The old data should be re-imported into the new app. Be sure to backup the free version beforehand.
-                          <hr>
-                        </p>
-                        <p><b>I rebuilt database, succeeded, but see no images/ videos?</b><br>
-                          Be sure to re-open any directories you initially chose (any which contains <b>VIPDownloader</b> directory) via <b>Organize Directories</b> button or visit <b>Settings > Storage > Organize Directories</b>. Basically you must re-grant access to the app if you reset the app data, or migrate from free to pro. You should see the images/ videos again. The reason is each flavor is unique in regards of permissions, even if the difference is just free and pro.
-                          <hr>
-                        </p>
-                        <p><b>Some features are not functioning?</b><br>
-                          Visit Android <b>Settings > Apps > VIP Downloader > Permissions</b>, or visit <b>Settings > Permissions</b> for a shortcut. Check the 3 dot menu on the top right to view <b>All permissions</b>. Enable the needed permissions. Anything disabled will not function. Restart the app! Don't be scared by descriptions unless you distrust the app developer. VIP Downloader is harmless regardless of spooky descriptions. Please note, sideloading is not supported as we use the new upload format using App bundle, not regular APK. Only install via Google Play Store!
-                          <hr>
-                        </p>
-                        <p><b>Sometimes I get pictures and videos downloaded real fast, sometimes slow?</b><br>
-                          First check your internet connection. I also noticed Instagram may slightly be busy at times. Bear with it.
-                          <hr>
-                        </p>
-                        <p><b>How to repost videos or pictures?</b><br>
-                          Tap any thumbnail to open the gallery display, or hit <b>Images</b> or <b>Videos</b> medu on the drawer. Find a button with a Repost sign (like seen at Twitter with Retweet), and tap that <b>Regram/ repost</b> button. Be sure to give credit to owners, and seek for their permissions. Or provide the configurable watermark as a credit in the least.
-                          <hr>
-                        </p>
-                        <p><b>Nothing downloaded?</b><br>
-                          Wait for a few seconds. In order for auto download to work, be sure that <b>VIP Downloader</b> is already open before tapping <b>Copy link</b> on Instagram. You can tap <b>VIP Downloader</b> icon when prompted to verify the
-                          download process. Or ignore it to continue browsing. The icon will disappear after a few seconds. Yet images or pictures should be downloaded automatically as long as this app is not killed. If failed for a reason, you can
-                          always manually paste the clipboard link into the provided text input. Lastly, also check if the image or video is already downloaded. Be sure to bookmark or fave them at Instagram to avoid unnecessary confusion with
-                          downloads.
-                          <hr>
-                        </p>
-                        <p><b>Can I set a video cover as a wallpaper, too?</b><br>
-                          Yes, just hit <b>Set wallpaper</b> button at video gallery. In order to have full screen video cover, enable <b>Create video cover</b> at <b>Settings > Personalization</b>. It is disabled to avoid unwanted covers. Only small
-                          video thumbnails are created by default.
-                          <hr>
-                        </p>
-                        <p><b>I want hamburger, not home-back arrow.</b><br>
-                          Go to <b>Settings > Appearance > Hamburger everywhere</b>. Enable to show hamburger everywhere. Useful for quick access to menu items. Then you can use your device navbar back arrow to go home. You can also swipe from the
-                          left edge to reveal the menu.
-                          <hr>
-                        </p>
-                        <p><b>Why I see a slight blinking when viewing the gallery large image?</b><br>
-                          Images are firstly loaded as small thumbnails to avoid OutOfMemory issue. Once you focus on a gallery image, a larger image version replaces the thumbnail.
-                          <hr>
-                        </p>
-                        <p><b>Why scraping not work?</b><br>
-                          Only applicable to FREE version. Before scraping you will be presented a video ad. A minimum 32 seconds threshold and 10 points is required before you close it. If you close it too early, scraping is not triggered.
-                          <hr>
-                        </p>
-                        <p><b>How to remove the notification?</b><br>
-                          <b>Settings > Private mode > Kill the service</b>. The notification needs to stand by to listen for "COPY LINKS" if using non-private mode. You can kill it if you always goes Private mode.
-                          <hr>
-                        </p>
-                        <p><b>Does video watermark work?</b><br>
-                          Not yet, sorry. I haven't been able to make it nor remove that option due to a mix of videos and images. Please ignore for videos for now. It should work for images, though.
-                          <hr>
-                        </p>
-                        <p><b>I downloaded one post, but my points deducted by 10?</b><br>
-                          At one post, it may contain 10 media such as seen at carousel post. The download is per media item, not post.
-                          <hr>
-                        </p>
-                        <p><b>How does the reward or point system work?</b><br>
-                          Only applicable to FREE version to minimize ads interruptions. Tap the top-right corner reward icon, or keep watching when presented by the app features. <br><br>Everytime you watch a video ad after a minimum 32 seconds threshold met, you will earn 10 points. If you close it before the threshold 32 seconds, you will still get the bonus point 2, but not the feature (scraping, free watermarks, etc.). Meaning scraping, etc. will not be executed. <br><br>1 download = 1 point at regular one-at-a-time download. <br><br>Scraping requires 30 points. Scraping can download 100 or 300 items at once if you have the minimum point and meet the 32 seconds threshold. <br><br>Ads-free requires 3000points. No ads (banner or fullscreen ones) will be shown. <br><br>Those are the obvious advantages of the reward, or point system. <br><br>Shortly, when you have free time to be interrupted, be sure to keep earning points so that when you don't want interruptions, you are totally free of them. If you intend to download 300 items per day, consider keeping your points above the minimum to get ads-free interruptions. <br><br>If you are sick of points, consider a PRO version.
-                          <hr>
-                        </p>
-                        <p><b>FREE vs. PRO versions?</b><br>
-                         Aside from ads, below are a few differences:
-                          <br><b>FREE:</b> 
-                          <ol>
-                            <li>Has reward or point system in return for app features.</li>
-                            <li>Browser will be killed if the app is put into background/ overview. If scraping, it will be terminated.</li>
-                            <li>Scraper will start at 32 seconds threshold after watching video with the above-mentioned minimum points. If the video is closed before 32 seconds, no scraping spider will run.</li>
-                            <li>No watermark option is not saved.</li>
-                            <li>My watermark requires PRO.</li>
-                          </ol>
-                          <br><b>PRO:</b> 
-                          <ol>
-                            <li>No hustle, no reward system.</li>
-                            <li>Browser persists as long as the app is open, not destroyed.</li>
-                            <li>Scraper starts immediately.</li>
-                            <li>No watermark option is saved.</li>
-                            <li>My watermark replaces credits with yours.</li>
-                          </ol>
-                          <hr>
-                        </p>
-                        <p><b>Have questions, suggestions, bug reports, or feedback?</b><br>
-                          We love to hear from you! Please use the <b>Feedback</b>, and rate our app. Any bitter, yet constructive, criticism will help us gain some strength to continue. <i>One of your life purposes is to help others. If you can't
-                            help people, at least don't hurt them</i>, says Dalai Lama. Thank you!
-                          <hr>
-                        </p>
-                        <p><b>Tips!</b><br>
-                          Basically quick or long tap or pinch zoom anything to access regular or zoom displays. If something broken, try restarting the app, and see if any better.</p>
+
+                        <details>
+                          <summary>Where are the pictures and videos stored?</summary>
+                          <div>
+                            At your SD (secondary or external) card (<b>Internal storage > Pictures|Movies > VIP Downloader</b> or <b>SD card/Removable storage > VIP Downloader > Pictures|Movies</b>). Or your folder of choice at a removable storage
+                            if
+                            you have one. Be sure to enable the requested permissions. If not, useless.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>Private and Public gates differences?</summary>
+                          <div>
+                            <b>Private/ internal</b>:
+                            <ul>
+                              <li>can only use the web interface provided by the app.</li>
+                              <li>requires login via app to access both private and public accounts.</li>
+                              <li>can download anywhere by long pressing thumbnails. Or press the Instagram <b>Bookmark</b> icon at full page. Or hit Instagram <b>Copy link</b> like seen at public accounts</li>
+                              <li>can scrape both private or public accounts.</li>
+                            </ul>
+                            <b>Public/ external</b>:
+                            <ul>
+                              <li>can use Instagram app, or browsers.</li>
+                              <li>doesn't require a login via this app to access public or private accounts.</li>
+                              <li>can only download via Instagram <b>Copy link</b> at public or private accounts</li>
+                              <li>can not scrape.</b></li>
+                            </ul>
+                            Due to the latest restrictions, providing a dummy or nothing-to-lose Instagram account is required via <b>Settings > Private mode</b> in order to make it work for both public and private accounts. No need to be the same as
+                            the currently-in-use Instagram account, except for private accounts (or at least both accounts, if different, should follow the same private accounts).
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>How to edit my created hashtags?</summary>
+                          <div>
+                            Click or long press the item on its listing page.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>I copied hashtags and captions, now what?</summary>
+                          <div>
+                            Hit <b>Repost</b> button. At Instagram, when prompted to add caption, simply long press on the textarea, and press <b>Paste</b> prompt.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>How does downloading private account media work?</summary>
+                          <div>
+                            <b>Three ways:</b>
+                            <ol>
+                              <li>Long press a media thumbnail (such as seen at /explore, /tags, /search or profile pages, any page which list small thumbnails) to save. The app will download it when you signal a long press.</li>
+                              <li>Visit its full page, and hit or press the Instagram <b>Bookmark</b> icon at full page.</li>
+                              <li>Use Instagram app, and hit regular <b>Copy link</b> for both public and private accounts.</li>
+                            </ol>
+                            For the first two, login via app web interface is required so that the app can see what you see without any special authorization. The app does not care about your credentials. It just borrows your authorized eyes under
+                            the hood due to Instagram restrictions.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>How does Instagram scraping work?</summary>
+                          <div>
+                            It is not real scraping. Scraping word is used to simplify the wordings. It is more like download-multiple-files-once than regular scraping. Needs manual intervention due to the pages are dynamically built and destroyed
+                            client-side. <br><b>Steps:</b> <br>
+                            <ol>
+                              <li>Scroll to the bottom of the page to begin collecting links, and up again
+                                to verify links collected. Or keep hitting <b>Rescan</b> to auto-scroll till the bottom reached. </li>
+                              <li>Hit the <b>Scrape</b> button, and wait for the spider to finish its job.</li>
+                            </ol>
+                            Again this is not scraping. It is just a convenient way to download multiple files at one click. Use it wisely and responsibly for good purposes.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>Instagram scraping requirements?</summary>
+                          <div>
+                            <ul>
+                              <li>Currently only works for profile pages with small thumbnails, not those with large images. Although scraping /tags, /explore, or practically any pages is doable, this feature is postponed till enough requests.</li>
+                              <li>Strong internet
+                                connection.</li>
+                              <li>Large size of device external storage (30gb+ to play nice), else you will be locked down due to out of space exception. Do not panic, though. Just kill the app, or power-off the device at worst. Manage your space,
+                                move or delete files.
+                                Switch or plug in a new empty card. Be sure to select it via <b>Organize directories</b>.</li>
+                              <li><b>FREE</b> version: as minimum of 30 points</li>
+                            </ul>
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>Can I navigate away while scraping?</summary>
+                          <div>
+                            Yes, as long as the app web interface displaying Instagram is opened. Scraping is run at another thread. Not your main UI thread. But that means you are doing several things simultaneously which immediately smells like
+                            human bot behaviors. Staying tuned till all downloads are finished is recommended unless you provide different accounts via <b>Settings > Private mode</b>.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>Is scraping safe for my account?</summary>
+                          <div>
+                            No. Use at your own risk. Use a dummy account. It is not allowed. You had been warned before scraping. If not prepared, and not knowing how to play nice, do not scrape. Necessary measures had been provided to minimize the
+                            algorithm triggers such as to make it behave like human with some configurable intervals, reduces rate limits, persistent UA and cookies, etc. No guarantees whatsoever.
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>Any recommendations?</summary>
+                          <div>
+                            No recommendations. Unfortunately scraping is bot behaviors, hardly human. Bots are b.a.n.n.e.d, mostly. Just know what you are doing. Common sense applies:
+                            <ul>
+                              <li>Normal human actions: click, open, close, back, scroll up and down. Do not repeat the same task too much, including donwload, or even like, too much. Don't do anything just too much. Anything preceded by too is not
+                                good, including too good.</li>
+                              <li>Stop downloading anything when reaching 300 per 24 hour. Unless you are caught earlier. You will be prompted a number when scraping, make a note.</li>
+                              <li>Only download 100 at most at a time. You can rescan the rest tomorrow.</li>
+                              <li>Have backup dummy accounts, many.</li>
+                              <li>Use different dummy accounts, follow the same private one. Input the first at <b>Settings > Private mode</b>. The other at Instagram.</li>
+                              <li>Use the same dummy accounts, and do trials and errors at your own descretion.</li>
+                            </ul>
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>What is <i>Organize directories</i> for?</summary>
+                          <div>
+                            To organize your pictures/ videos thematically for offline convenience. You can put wild life media into <b>Wildlife</b> folder, food and beverages into <b>Cooking</b>, etc. Above all, you can put them all into an external
+                            removable disk for greater storage rooms rather than being stored internally.
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>The app is not functioning when I remove my SD card?</summary>
+                          <div>
+                            Yes, of course. If you chose a removable SD card for storage, then removed/ plugged out, the app has no way to fetch its stored data. Unless you have multiple slots. Plugging it back in should make the app functional
+                            again.
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>I forgot my PIN. How to reset?</summary>
+                          <div>
+                            Please note the PIN. Visit Android system settings (<b>Settings > Apps > VIP Downloader > Storage > Clear data</b>). This app's data will be lost like first install. Your downloaded photos and videos are safe at the
+                            above-mentioned storage, but no longer accessible by this app. In order to have a functional app again with the old data, rebuild database based on your database backup at runtime. Visit <b>Settings > Database > Rebuild
+                              database</b>. This app should be functional again.
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>I purchase the pro version. How to migrate old data into new app?</summary>
+                          <div>
+                            Visit <b>Settings > Database > Migrate database</b>. The old data should be re-imported into the new app. Be sure to backup the free version beforehand.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>I rebuilt database, succeeded, but see no images/ videos?</summary>
+                          <div>
+                            Be sure to re-open any directories you initially chose (any which contains <b>VIPDownloader</b> directory) via <b>Organize Directories</b> button or visit <b>Settings > Storage > Organize Directories</b>. Basically you
+                            must re-grant access to the app if you reset the app data, or migrate from free to pro. You should see the images/ videos again. The reason is each flavor is unique in regards of permissions, even if the difference is just
+                            free and pro.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>Some features are not functioning?</summary>
+                          <div>
+                            Visit Android <b>Settings > Apps > VIP Downloader > Permissions</b>, or visit <b>Settings > Permissions</b> for a shortcut. Check the 3 dot menu on the top right to view <b>All permissions</b>. Enable the needed
+                            permissions. Anything disabled will not function. Restart the app! Don't be scared by descriptions unless you distrust the app developer. VIP Downloader is harmless regardless of spooky descriptions. Please note,
+                            sideloading is not supported as we use the new upload format using App bundle, not regular APK. Only install via Google Play Store!
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>Sometimes I get pictures and videos downloaded real fast, sometimes slow?</summary>
+                          <div>
+                            First check your internet connection. I also noticed Instagram may slightly be busy at times. Bear with it.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>How to repost videos or pictures?</summary>
+                          <div>
+                            Tap any thumbnail to open the gallery display, or hit <b>Images</b> or <b>Videos</b> medu on the drawer. Find a button with a Repost sign (like seen at Twitter with Retweet), and tap that <b>Regram/ repost</b> button. Be
+                            sure to give credit to owners, and seek for their permissions. Or provide the configurable watermark as a credit in the least.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>Nothing downloaded?</summary>
+                          <div>
+                            Wait for a few seconds. In order for auto download to work, be sure that <b>VIP Downloader</b> is already open before tapping <b>Copy link</b> on Instagram. You can tap <b>VIP Downloader</b> icon when prompted to verify
+                            the
+                            download process. Or ignore it to continue browsing. The icon will disappear after a few seconds. Yet images or pictures should be downloaded automatically as long as this app is not killed. If failed for a reason, you can
+                            always manually paste the clipboard link into the provided text input. Lastly, also check if the image or video is already downloaded. Be sure to bookmark or fave them at Instagram to avoid unnecessary confusion with
+                            downloads.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>Can I set a video cover as a wallpaper, too?</summary>
+                          <div>
+                            Yes, just hit <b>Set wallpaper</b> button at video gallery. In order to have full screen video cover, enable <b>Create video cover</b> at <b>Settings > Personalization</b>. It is disabled to avoid unwanted covers. Only
+                            small
+                            video thumbnails are created by default.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>I want hamburger, not home-back arrow.</summary>
+                          <div>
+                            Go to <b>Settings > Appearance > Hamburger everywhere</b>. Enable to show hamburger everywhere. Useful for quick access to menu items. Then you can use your device navbar back arrow to go home. You can also swipe from the
+                            left edge to reveal the menu.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>Why I see a slight blinking when viewing the gallery large image?</summary>
+                          <div>
+                            Images are firstly loaded as small thumbnails to avoid OutOfMemory issue. Once you focus on a gallery image, a larger image version replaces the thumbnail.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>Why scraping not work?</summary>
+                          <div>
+                            Only applicable to FREE version. Before scraping you will be presented a video ad. A minimum 32 seconds threshold and 10 points is required before you close it. If you close it too early, scraping is not triggered.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>How to remove the notification?</summary>
+                          <div>
+                            <b>Settings > Private mode > Kill the service</b>. The notification needs to stand by to listen for "COPY LINKS" if using non-private mode. You can kill it if you always goes Private mode.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>Does video watermark work?</summary>
+                          <div>
+                            Not yet, sorry. I haven't been able to make it nor remove that option due to a mix of videos and images. Please ignore for videos for now. It should work for images, though.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>I downloaded one post, but my points deducted by 10?</summary>
+                          <div>
+                            At one post, it may contain 10 media such as seen at carousel post. The download is per media item, not post.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>How does the reward or point system work?</summary>
+                          <div>
+                            Only applicable to FREE version to minimize ads interruptions. Tap the top-right corner reward icon, or keep watching when presented by the app features. <br><br>Everytime you watch a video ad after a minimum 32 seconds
+                            threshold met, you will earn 10 points. If you close it before the threshold 32 seconds, you will still get the bonus point 2, but not the feature (scraping, free watermarks, etc.). Meaning scraping, etc. will not be
+                            executed. <br><br>1 download = 1 point at regular one-at-a-time download. <br><br>Scraping requires 30 points. Scraping can download 100 or 300 items at once if you have the minimum point and meet the 32 seconds threshold.
+                            <br><br>Ads-free requires 3000points. No ads (banner or fullscreen ones) will be shown. <br><br>Those are the obvious advantages of the reward, or point system. <br><br>Shortly, when you have free time to be interrupted,
+                            be sure to keep earning points so that when you don't want interruptions, you are totally free of them. If you intend to download 300 items per day, consider keeping your points above the minimum to get ads-free
+                            interruptions. <br><br>If you are sick of points, consider a PRO version.
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>FREE vs. PRO versions?</summary>
+                          <div>
+                            Aside from ads, below are a few differences:
+                            <br><b>FREE:</b>
+                            <ol>
+                              <li>Has reward or point system in return for app features.</li>
+                              <li>Browser will be killed if the app is put into background/ overview. If scraping, it will be terminated.</li>
+                              <li>Scraper will start at 32 seconds threshold after watching video with the above-mentioned minimum points. If the video is closed before 32 seconds, no scraping spider will run.</li>
+                              <li>No watermark option is not saved.</li>
+                              <li>My watermark requires PRO.</li>
+                            </ol>
+                            <br><b>PRO:</b>
+                            <ol>
+                              <li>No hustle, no reward system.</li>
+                              <li>Browser persists as long as the app is open, not destroyed.</li>
+                              <li>Scraper starts immediately.</li>
+                              <li>No watermark option is saved.</li>
+                              <li>My watermark replaces credits with yours.</li>
+                            </ol>
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>Have questions, suggestions, bug reports, or feedback?</summary>
+                          <div>
+                            We love to hear from you! Please use the <b>Feedback</b>, and rate our app. Any bitter, yet constructive, criticism will help us gain some strength to continue. <i>One of your life purposes is to help others. If you can't
+                              help people, at least don't hurt them</i>, says Dalai Lama. Thank you!
+
+                          </div>
+                          </summary>
+                        </details>
+                        <details>
+                          <summary>Tips!</summary>
+                          <div>
+                            Basically quick or long tap or pinch zoom anything to access regular or zoom displays. If something broken, try restarting the app, and see if any better.
+                          </div>
+                          </summary>
+                        </details>
                       </div>
                     </div>
                   </article>
