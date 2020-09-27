@@ -241,7 +241,6 @@ vbox7
 veoh
 vidio
 vimeo
-vimeo
 vinebox
 xhamster
 youku
