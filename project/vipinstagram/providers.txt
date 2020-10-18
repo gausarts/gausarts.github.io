@@ -8,9 +8,9 @@ Vimeo
 Vudeo.net
 4Shared
 BitTube.video
+DailyMotion
 VK
 CocoScope
-DailyMotion
 FanSubs.tv
 FEmbed
 FileRio.in
