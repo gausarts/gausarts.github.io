@@ -4,5 +4,3 @@ Facebook
 Reddit
 TikTok
 Vimeo
-BitTube.video
-Twitch
