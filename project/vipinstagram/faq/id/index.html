@@ -15,7 +15,9 @@
   <link rel="canonical" href="/project/vipinstagram/faq/id" />
   <link rel="revision" href="/project/vipinstagram/faq/id" />
   <title>FAQ | gaus</title>
-  <style>@media screen and (max-width: 1025px) {.page__title {visibility: hidden; position: absolute;}}</style>
+  <style>
+    html,body{padding:0;margin:0;font-size:18px;line-height:1.2;overflow-x:hidden}details summary::-webkit-details-marker{display:none}details[open] summary~*{animation:open .3s ease-in-out}@keyframes open{0%{opacity:0}100%{opacity:1}}details summary{width:100%;padding:.75rem 0;border-top:1px solid #444;position:relative;cursor:pointer;font-size:.92rem;font-weight:300;list-style:none}details summary::after{content:"+";color:#999;position:absolute;font-size:1rem;line-height:0;margin-top:.5rem;right:0;font-weight:200;transform-origin:center;transition:200ms linear}details[open] summary::after{transform:rotate(45deg)}details summary{outline:0}summary~*{font-size:.92rem;line-height:1.6;margin:0 0 1rem;padding-top:1rem}@media screen and (max-width: 1025px){.visible-desktop{visibility:hidden;position:absolute}}
+  </style>
 </head>
 
 <body class="layout-no-sidebars path-node page-node-type-page">
@@ -28,17 +30,9 @@
           </div>
         </div>
       </header>
-      <div class="l-featured-top">
-        <aside class="l-container section clearfix" role="complementary">
-          <div class="region region-featured-top">
-            <div id="block-bartok-page-title--2" class="block--bartok-page-title--2 block block--core block--page-title-block">
-              <div class="page__header">
-                <h1 class="page__title page-title">FAQ</h1>
-              </div>
-            </div>
-          </div>
-        </aside>
-      </div>
+
+      <h1 class="page__title page-title visible-desktop">FAQ</h1>
+
       <div id="main-wrapper" class="l-main-wrapper">
         <div id="main" class="l-main l-container clearfix">
           <main id="content" class="l-main-content column" role="main">
@@ -46,113 +40,173 @@
               <div class="region region-content">
                 <div id="block-bartok-bold-system-main--2" class="block--bartok-bold-system-main--2 block block--system block--system-main-block">
                   <article role="article" about="/project/vipinstagram/faq/id" typeof="schema:WebPage" class="node node--1060 node--type-page node--view-mode-full clearfix">
-                    <header><span property="schema:name" content="FAQ" class="rdf-meta hidden"></span></header>
+                    <header><span property="schema:name" content="FAQ" class="rdf-meta hidden"></span>
+                      <a href="https://gausarts.github.com/project/vipinstagram/faq/index.html">EN</a> | <a href="https://gausarts.github.com/project/vipinstagram/faq/id/index.html">ID</a>
+                    </header>
                     <div class="node__content clearfix">
                       <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                        <p><b>Di mana gambar dan video disimpan?</b><br>
-                          Di kartu SD (sekunder atau eksternal) Anda (<b>Penyimpanan internal > Pictures|Movies > VIP Downloader</b> or <b>SD card/penyimpanan luar > VIP Downloader > Pictures|Movies</b>). Pastikan untuk mengaktifkan izin yang
-                          diminta. Jika tidak, percuma.
-                          <hr>
-                        </p>
-                        <p><b>Beda gerbang Privat dan Publik?</b><br>
-                          <b>Privat</b>:
-                          <ul><li>harus login via aplikasi guna bisa mengakses akun private dan public.</li><li>hanya bisa memakai tampilan web yang disediakan aplikasi.</li><li>Bisa unduh dimana saja cukup dengan pijit lama pada gambar kecil. Atau pijit ikon <b>Bookmark</b> di laman penuh. Atau pencet <b>Salin tautan</b> pada akun publik.</li><li>Bisa skrap akun privat atau publik.</li></ul>
-                          <b>Publik</b>:
-                          <ul><li>tidak harus login via aplikasi, hanya bisa akses akun publik.</li><li>Bisa memakai aplikasi Instagram atau browser bebas.</li><li>Hanya bisa unduh lewat <b>Salin tautan</b> pada akun publik</li><li>Tidak bisa skrap.</li></ul>
-                          <hr>
-                        </p>
-                        <p><b>Cara unduh media dari akun privat?</b><br>
-                          <b>Dua cara:</b><br> 1. Tekan lama pada gambar (seperti pada laman /explore, /tags, /search atau profile, pokoknya yang ada gambar kecil) guna menyimpan media. Aplikasi akan mengunduh bila mendetekeksi tekanan tertahan. <br>2. Masuk laman
-                          penuh, pijit tombol unduhan yang disediakan. Harus login dulu agar aplikasi bisa melihat yang Anda lihat tanpa otorisasi khusus. Aplikasi ini tidak membaca, tidak tahu, tidak menyimpan, juga tidak peduli perihal akun atau
-                          kata sandi Instagram Anda. Aplikasi hanya meminjam mata Anda guna bisa mengunduh media.
-                        <hr>
-                      </p>
-                        <p><b>Cara kerja skraping?</b><br>
-                          Ini versi sederhana, tidak terlalu hebat. Perlu campur tangan berhubung halaman dibikin dan hancurkan secara dinamis. <br><b>Langkah:</b> <br>1. Ramban laman sampai ke bawah guna mengumpulkan tautan, dan naik lagi guna
-                          verifikasi ulang. <br>2. Pijit tombol Skrap, dan tunggu laba-laba beres bekerja.
-                        <hr>
-                      </p>
-                        <p><b>Persyaratan Skraping?</b><br>
-                          - Halaman profil berisi gambar kecil, bukan laman berisi gambar besar. <br>- Koneksi internet kuat. <br>- Ruang penyimpanan besar (30gb+ amanya). Jika minim, bisa error kekurangan ruang. Jangan panik.
+                        <details>
+                          <summary>Di mana gambar dan video disimpan?</summary>
+                          <div>
+                            Di kartu SD (sekunder atau eksternal) Anda (<b>Penyimpanan internal > Pictures|Movies > VIP Downloader</b> or <b>SD card/penyimpanan luar > VIP Downloader > Pictures|Movies</b>). Pastikan untuk mengaktifkan izin yang
+                            diminta. Jika tidak, percuma.
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Beda gerbang Privat dan Publik?</summary>
+                          <div>
+                            <b>Privat/ Internal</b>:
+                            <ul>
+                              <li>harus login via aplikasi guna bisa mengakses akun private dan public.</li>
+                              <li>hanya bisa memakai tampilan web yang disediakan aplikasi.</li>
+                              <li>Bisa unduh dimana saja cukup dengan pijit lama pada gambar kecil. Atau pijit ikon <b>Bookmark</b> di laman penuh. Atau pencet <b>Salin tautan</b> pada akun publik.</li>
+                              <li>Bisa skrap akun privat atau publik.</li>
+                            </ul>
+                            <b>Publik/ Eksternal</b>:
+                            <ul>
+                              <li>tidak harus login via aplikasi, hanya bisa akses akun publik.</li>
+                              <li>Bisa memakai aplikasi Instagram atau browser bebas.</li>
+                              <li>Hanya bisa unduh lewat <b>Salin tautan</b> pada akun publik</li>
+                              <li>Tidak bisa skrap.</li>
+                            </ul>
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Cara unduh media dari akun privat?</summary>
+                          <div>
+                            <b>Dua cara:</b><br> 1. Tekan lama pada gambar (seperti pada laman /explore, /tags, /search atau profile, pokoknya yang ada gambar kecil) guna menyimpan media. Aplikasi akan mengunduh bila mendetekeksi tekanan tertahan.
+                            <br>2. Masuk laman
+                            penuh, pijit tombol unduhan yang disediakan. Harus login dulu agar aplikasi bisa melihat yang Anda lihat tanpa otorisasi khusus. Aplikasi ini tidak membaca, tidak tahu, tidak menyimpan, juga tidak peduli perihal akun atau
+                            kata sandi Instagram Anda. Aplikasi hanya meminjam mata Anda guna bisa mengunduh media.
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Cara kerja skraping?</summary>
+                          <div>
+                            Ini versi sederhana, tidak terlalu hebat. Perlu campur tangan berhubung halaman dibikin dan hancurkan secara dinamis. <br><b>Langkah:</b> <br>1. Ramban laman sampai ke bawah guna mengumpulkan tautan, dan naik lagi guna
+                            verifikasi ulang. <br>2. Pijit tombol Skrap, dan tunggu laba-laba beres bekerja.
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Persyaratan Skraping?</summary>
+                          <div>
+                            - Halaman profil berisi gambar kecil, bukan laman berisi gambar besar. <br>- Koneksi internet kuat. <br>- Ruang penyimpanan besar (30gb+ amanya). Jika minim, bisa error kekurangan ruang. Jangan panik.
                             Pijit <b>Abort</b>. Atur ruang, pindah dan hapus berkas. Ganti atau masukkan kartu memori kosong. Pastikan dipilih via tombol <b>Atur folder</b>.
-                          <hr>
-                        </p>
-                        <p><b>Apakah skraping aman buat akun?</b><br>
-                          Tidak. Barang terlarang. Tanggung sendiri akibatnya. Anda sudah diperingatkan sebelum skraping, siap-siap kena ban. Jika tak siap, dan tidak tahu cara bermain cantik, jangan tergoda. Langkah-langkah antisipatif sudah dilakukan guna mengurangi
-                          pemicu algoritme banning seperti bikin laku lajak manusia, mengurangi pembatasan kerapatan permintaan, UA dan cookie yang persistent, dsb. Tidak ada jaminan sama sekali.
-                          <hr>
-                        </p>
-                        <p><b>Apa maksud <i>bermain cantik<i>?</b><br>
-                          Skraping adalah perilaku bot, bukan manusia. Bot banyak diban.
-                          <b>Main cantik:</b>
-                          <ul>
-                            <li>Laku lajak manusia. Klik, buka, tutup, balik, turun, naik. Laku lajak bot, melakukan satu tugas berulang-ulang. Jangan unduh terlalu banyak. Jangan suka terlalu banyak. Apapun yang diawali terlalu itu tidak baik, termasuk terlalu baik.</li>
-                            <li>Stop downloading anything when reaching 300 per 24 hour. You will be prompted a number when scraping.</li>
-                            <li>Only scrap 100 at most at a time. You can rescan and rescrap the rest tomorrow.</li>
-                            <li>Have backup accounts, many.</li>
-                            <li>Anything against the above is not safe at all. You had been warned. Do trials and errors at your own descretion.</li>
-                          </ul>
-                          <hr>
-                        </p>
-                        <p><b>Apa guna <i>Atur berkas penyimpanan<i>?</b><br>
-                          Untuk mengorganisir foto dan video berdasarkan tema guna kenyamanan offline. Terutama untuk menyimpan data pada lokasi penyimpanan external yang bisa diganti/ pasang ulang demi ruang lebih besar daripada penyimpanan internal.
-                          <hr>
-                        </p>
-                        <p><b>Aplikasi tidak berfungsi kalo SD card dicabut?</b><br>
-                          Ya, tentu saja. Kalo penyimpanan SD card dicabut, aplikasi ini kehilangan referensi datanya. Memasangkan kembali SD card bisa membuat aplikasi berfungsi kembali.
-                          <hr>
-                        </p>
-                        <p><b>Saya lupa PIN. Cara reset?</b><br>
-                          Mohon catat PIN. Masuk Android Setelan sistem (<b>Setelan > Aplikasi > VIP Downloader > Penyimpanan > Hapus data</b>). Data aplikasi ini akan tersapu bersih seperti pertama terinstal. Foto dan video aman di penyimpanan
-                          tersebut di atas, namun tidak terakses dalam aplikasi. Agar berfungsi kembali dengan data lama, bangun ulang database berdasarkan bakup. Masuk <b>Setelan > Database > Bangun ulang database</b>. Aplikasi akan berfungsi normal
-                          kembali.
-                          <hr>
-                        </p>
-                        <p><b>Saya beli versi pro. Cara migrasi data lama ke baru?</b><br>
-                          Masuk <b>Setelan > Database > Migrasi database</b>. Data lama akan diimport sebagai data baru.
-                          <hr>
-                        </p>
-                        <p><b>Beberapa fitur tidak berfungsi?</b><br>
-                          Kunjungi <b>Pengaturan > Aplikasi > Pengunduh IG > Izin</b> pada Android Anda. Periksa menu 3 titik di kanan atas untuk melihat <b>Semua izin</b>. Aktifkan izin sesuai kebutuhan. Semua yang dinonaktifkan tidak akan
-                          berfungsi. Jangan takut dengan deskripsi kecuali Anda tidak mempercayai pengembang aplikasi. VIP Downloader tidak berbahaya terlepas dari deskripsi yang menyeramkan. Sideloading tidak disarankan. Kami memakai format unggah
-                          baru via App bundle, bukan APK biasa. Pastikan instal dari Google Play Store.
-                          <hr>
-                        </p>
-                        <p><b>Terkadang gambar dan video yang diunduh sangat cepat, kadang lelet?</b><br>
-                          Pertama periksa koneksi internet Anda. Saya juga perhatikan Instagram mungkin agak sibuk. Bersabarlah.
-                          <hr>
-                        </p>
-                        <p><b>Bagaimana cara mengirim ulang video atau gambar?</b><br>
-                          Ketuk foto kecil apa pun untuk membuka tampilan galeri. Cari tombol dengan tanda plus (+), dan ketuk tombol <b>Regram / repost</b>.
-                          <hr>
-                        </p>
-                        <p><b>Tidak ada yang diunduh?</b><br>
-                          Tunggu beberapa saat. Agar pengunduhan otomatis berfungsi, pastikan bahwa <b>VIP Downloader</b> sudah terbuka sebelum mengetuk <b>Salin tautan</b> di Instagram. Anda dapat mengetuk ikon <b>VIP Downloader</b> bila muncul
-                          untuk memverifikasi proses pengunduhan. Atau abaikan untuk melanjutkan penelusuran. Ikon akan hilang setelah beberapa detik. Namun gambar atau video akan diunduh secara otomatis selama aplikasi ini tidak mati. Jika gagal
-                          karena suatu alasan, Anda dapat menempelkan tautan klipbor ke dalam input teks yang disediakan secara manual.
-                          <hr>
-                        </p>
-                        <p><b>Dapatkah saya menyetel sampul video sebagai wallpaper juga?</b><br>
-                          Ya, cukup tekan tombol <b>Setel wallpaper</b> di galeri video. Untuk memiliki sampul video layar penuh, aktifkan <b>Bikin sampul video</b> di <b>Pengaturan > Personalisasi</b>. Ini dinonaktifkan untuk menghindari sampul yang
-                          tidak diinginkan. Hanya foto video kecil yang dibuat secara bawaan.
-                          <hr>
-                        </p>
-                        <p><b>Mengapa galeri berkedip saat tampil gambar besar?</b><br>
-                          Gambar pertama dimuat sebagai thumbnail kecil untuk menghindari masalah OutOfMemory. Setelah gambar fokus, versi gambar yang lebih besar menggantikan thumbnail.
-                          <hr>
-                        </p>
-                        <p><b>Saya ingin menu hamburger, bukan panah rumah-balik.</b><br>
-                          Buka <b>Pengaturan > Penampilan > Hamburger di mana-mana</b>. Aktifkan untuk menampilkan hamburger di mana-mana. Berguna untuk akses cepat ke item menu. Kemudian Anda dapat memakai panah navbar perangkat untuk pulang. Atau
-                          bisa juga gesek dari tepi kiri untuk membuka menu.
-                          <hr>
-                        </p>
-                        <p><b>Ada pertanyaan, saran, laporan bug, atau umpan balik?</b><br>
-                          Kami senang mendengar dari Anda! Silakan gunakan <b>Umpan Balik</b>, dan beri nilai aplikasi kami. Kritik pedas, tapi konstruktif akan membantu kami mendapatkan kekuatan untuk melanjutkan. <i>Salah satu tujuan hidupmu adalah
-                            untuk membantu orang lain. Jika Anda tidak dapat membantu orang, setidaknya jangan sakiti mereka</i>, kata Dalai Lama. Terima kasih!
-                          <hr>
-                        </p>
-                        <p><b>Kiat!</b><br>
-                          Pada dasarnya tap cepat atau ganda atau pinch zoom apa saja untuk mengakses tampilan biasa atau zoom. Jika ada yang rusak, coba mulai ulang aplikasi, dan lihat apakah bisa lebih baik.</p>
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Apakah skraping aman buat akun?</summary>
+                          <div>
+                            Tidak. Barang terlarang. Tanggung sendiri akibatnya. Anda sudah diperingatkan sebelum skraping, siap-siap kena ban. Jika tak siap, dan tidak tahu cara bermain cantik, jangan tergoda. Langkah-langkah antisipatif sudah
+                            dilakukan guna mengurangi
+                            pemicu algoritme banning seperti bikin laku lajak manusia, mengurangi pembatasan kerapatan permintaan, UA dan cookie yang persistent, dsb. Tidak ada jaminan sama sekali.
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Apa maksud <i>bermain cantik<i>?</summary>
+                          <div>
+                            Skraping adalah perilaku bot, bukan manusia. Bot banyak diban.
+                            <b>Main cantik:</b>
+                            <ul>
+                              <li>Laku lajak manusia. Klik, buka, tutup, balik, turun, naik. Laku lajak bot, melakukan satu tugas berulang-ulang. Jangan unduh terlalu banyak. Jangan suka terlalu banyak. Apapun yang diawali terlalu itu tidak baik,
+                                termasuk terlalu baik.</li>
+                              <li>Stop downloading anything when reaching 300 per 24 hour. You will be prompted a number when scraping.</li>
+                              <li>Only scrap 100 at most at a time. You can rescan and rescrap the rest tomorrow.</li>
+                              <li>Have backup accounts, many.</li>
+                              <li>Anything against the above is not safe at all. You had been warned. Do trials and errors at your own descretion.</li>
+                            </ul>
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Apa guna <i>Atur berkas penyimpanan<i>?</summary>
+                          <div>
+                            Untuk mengorganisir foto dan video berdasarkan tema guna kenyamanan offline. Terutama untuk menyimpan data pada lokasi penyimpanan external yang bisa diganti/ pasang ulang demi ruang lebih besar daripada penyimpanan
+                            internal.
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Aplikasi tidak berfungsi kalo SD card dicabut?</summary>
+                          <div>
+                            Ya, tentu saja. Kalo penyimpanan SD card dicabut, aplikasi ini kehilangan referensi datanya. Memasangkan kembali SD card bisa membuat aplikasi berfungsi kembali.
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Saya lupa PIN. Cara reset?</summary>
+                          <div>
+                            Mohon catat PIN. Masuk Android Setelan sistem (<b>Setelan > Aplikasi > VIP Downloader > Penyimpanan > Hapus data</b>). Data aplikasi ini akan tersapu bersih seperti pertama terinstal. Foto dan video aman di penyimpanan
+                            tersebut di atas, namun tidak terakses dalam aplikasi. Agar berfungsi kembali dengan data lama, bangun ulang database berdasarkan bakup. Masuk <b>Setelan > Database > Bangun ulang database</b>. Aplikasi akan berfungsi
+                            normal
+                            kembali.
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Saya beli versi pro. Cara migrasi data lama ke baru?</summary>
+                          <div>
+                            Masuk <b>Setelan > Database > Migrasi database</b>. Data lama akan diimport sebagai data baru.
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Beberapa fitur tidak berfungsi?</summary>
+                          <div>
+                            Kunjungi <b>Pengaturan > Aplikasi > Pengunduh IG > Izin</b> pada Android Anda. Periksa menu 3 titik di kanan atas untuk melihat <b>Semua izin</b>. Aktifkan izin sesuai kebutuhan. Semua yang dinonaktifkan tidak akan
+                            berfungsi. Jangan takut dengan deskripsi kecuali Anda tidak mempercayai pengembang aplikasi. VIP Downloader tidak berbahaya terlepas dari deskripsi yang menyeramkan. Sideloading tidak disarankan. Kami memakai format unggah
+                            baru via App bundle, bukan APK biasa. Pastikan instal dari Google Play Store.
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Terkadang gambar dan video yang diunduh sangat cepat, kadang lelet?</summary>
+                          <div>
+                            Pertama periksa koneksi internet Anda. Saya juga perhatikan Instagram mungkin agak sibuk. Bersabarlah.
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Bagaimana cara mengirim ulang video atau gambar?</summary>
+                          <div>
+                            Ketuk foto kecil apa pun untuk membuka tampilan galeri. Cari tombol dengan tanda plus (+), dan ketuk tombol <b>Regram / repost</b>.
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Tidak ada yang diunduh?</summary>
+                          <div>
+                            Tunggu beberapa saat. Agar pengunduhan otomatis berfungsi, pastikan bahwa <b>VIP Downloader</b> sudah terbuka sebelum mengetuk <b>Salin tautan</b> di Instagram. Anda dapat mengetuk ikon <b>VIP Downloader</b> bila muncul
+                            untuk memverifikasi proses pengunduhan. Atau abaikan untuk melanjutkan penelusuran. Ikon akan hilang setelah beberapa detik. Namun gambar atau video akan diunduh secara otomatis selama aplikasi ini tidak mati. Jika gagal
+                            karena suatu alasan, Anda dapat menempelkan tautan klipbor ke dalam input teks yang disediakan secara manual.
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Dapatkah saya menyetel sampul video sebagai wallpaper juga?</summary>
+                          <div>
+                            Ya, cukup tekan tombol <b>Setel wallpaper</b> di galeri video. Untuk memiliki sampul video layar penuh, aktifkan <b>Bikin sampul video</b> di <b>Pengaturan > Personalisasi</b>. Ini dinonaktifkan untuk menghindari sampul
+                            yang
+                            tidak diinginkan. Hanya foto video kecil yang dibuat secara bawaan.
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Mengapa galeri berkedip saat tampil gambar besar?</summary>
+                          <div>
+                            Gambar pertama dimuat sebagai thumbnail kecil untuk menghindari masalah OutOfMemory. Setelah gambar fokus, versi gambar yang lebih besar menggantikan thumbnail.
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Saya ingin menu hamburger, bukan panah rumah-balik.</summary>
+                          <div>
+                            Buka <b>Pengaturan > Penampilan > Hamburger di mana-mana</b>. Aktifkan untuk menampilkan hamburger di mana-mana. Berguna untuk akses cepat ke item menu. Kemudian Anda dapat memakai panah navbar perangkat untuk pulang. Atau
+                            bisa juga gesek dari tepi kiri untuk membuka menu.
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Ada pertanyaan, saran, laporan bug, atau umpan balik?</summary>
+                          <div>
+                            Kami senang mendengar dari Anda! Silakan gunakan <b>Umpan Balik</b>, dan beri nilai aplikasi kami. Kritik pedas, tapi konstruktif akan membantu kami mendapatkan kekuatan untuk melanjutkan. <i>Salah satu tujuan hidupmu
+                              adalah untuk membantu orang lain. Jika Anda tidak dapat membantu orang, setidaknya jangan sakiti mereka</i>, kata Dalai Lama. Terima kasih!
+                          </div>
+                        </details>
+                        <details>
+                          <summary>Kiat!</summary>
+                          <div>
+                            Pada dasarnya tap cepat atau ganda atau pinch zoom apa saja untuk mengakses tampilan biasa atau zoom. Jika ada yang rusak, coba mulai ulang aplikasi, dan lihat apakah bisa lebih baik.
+                          </div>
+                        </details>
                       </div>
                     </div>
                   </article>
@@ -163,18 +217,8 @@
         </div>
       </div>
       <footer class="l-footer">
-        <div class="l-container">
-          <div class="l-footer__bottom">
-            <div class="region region-footer-fifth">
-              <div data-drupal-messages-fallback class="hidden"></div>
-              <div id="block-footercopyright--2" class="block--footercopyright--2 block block--block-content">
-                <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                  <p>© 2008 gaus</a>.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <p><small>© 2008 gaus <span class="visible-desktop"></span>| <a href="https://play.google.com/store/apps/details?id=vip.gaus.instagramphotovideodownloader.free"><b>VIP Downloader for Instagram, Facebook, Reddit, Tiktok, Twitter,
+                Vimeo</b></a></span></small></p>
       </footer>
     </div>
   </div>
