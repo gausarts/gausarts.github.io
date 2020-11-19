@@ -43,6 +43,20 @@
                       <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
 
                         <details>
+                          <summary>Upgrading from older versions (v1.1)?</summary>
+                          <div>
+                            If you are not upgrading from older versions, please skip, else follow:
+                            <ul>
+                              <li>Run <b>Setting > Database > Backup database</b> if you haven't, before upgrade. Do this routine later on.</li>
+                              <li>Only uninstall the old app if any issues arise.</li>
+                              <li>After reinstall, or not, run <b>Setting > Database > Migrate to v1.2</b> or later. If you don't see this option, nothing else to do.</li>
+                            </ul>
+
+                            This should migrate your old data to the new database in case there is a major broken schema change. This can be done anytime even after new data in place, no problem, as long as you have done the backup routine.
+                          </div>
+                        </details>
+
+                        <details>
                           <summary>Where are the pictures and videos stored?</summary>
                           <div>
                             At your SD (secondary or external) card:
@@ -70,10 +84,10 @@
                             <ul>
                               <li>can use Instagram app, or browsers.</li>
                               <li>doesn't require a login via this app to access public or private accounts.</li>
-                              <li>can only download via Instagram <b>Copy link</b> at public or private accounts</li>
+                              <li>can only download via Instagram <b>Copy link</b> or <b>Share link</b> at public or private accounts</li>
                               <li>can not scrape.</li>
                             </ul>
-                            Due to the latest restrictions, providing a dummy or nothing-to-lose Instagram account is required via <b>Settings > Accounts</b> in order to make it work for both public and private accounts. No need to be the same as the currently-in-use Instagram account, except for private accounts (or at least both accounts, if different, should follow the same private accounts).
+                            Due to the latest restrictions, providing a dummy or nothing-to-lose Instagram account is required via <b>Settings > Accounts</b> in order to make it work for both public and private accounts. No need to be the same as the currently-in-use Instagram account, except for private accounts (or at least both accounts, if different, should follow the same private accounts). It is not required for public accounts. However if it breaks, be sure to input your creds.
 
                           </div>
                         </details>
