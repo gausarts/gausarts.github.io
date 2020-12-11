@@ -1,8 +1,1 @@
-Instagram
-Twitter
-Facebook
-Reddit
-Likee
-SnackVideo
-TikTok
-Vimeo
+Instagram,Twitter,Facebook,Reddit,Likee,SnackVideo,TikTok,Vimeo
