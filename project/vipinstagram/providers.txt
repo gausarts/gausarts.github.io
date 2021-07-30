@@ -1,1 +1,1 @@
-Instagram,Facebook,Reddit,Twitter,TikTok,Vimeo,Likee,SnackVideo,Unsplash,Jamendo
+Instagram,Facebook,Reddit,Twitter,TikTok,Vimeo,Likee,Pinterest,SnackVideo,Unsplash,Jamendo
