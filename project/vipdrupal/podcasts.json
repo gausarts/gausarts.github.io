@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Lullabot Podcast",
+    "picture": " https://is2-ssl.mzstatic.com/image/thumb/Music71/v4/ec/f0/8c/ecf08c38-0241-8d6e-2af0-bb76c1170cb3/source/600x600bb.jpg",
+    "url": "https://www.lullabot.com/rss/podcasts/drupalizeme-podcast",
+    "website": "https://www.lullabot.com"
+  },
+  {
+    "name": "Behind the Screens",
+    "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music118/v4/12/dc/14/12dc1403-c359-7c52-fc41-37c01e03057e/source/600x600bb.jpg",
+    "url": " https://www.lullabot.com/rss/podcasts/drupal-voices",
+    "website": "https://www.lullabot.com"
+  },
+  {
+    "name": "Hacking Culture",
+    "picture": "https://www.lullabot.com/sites/default/files/styles/max_800/public/2018-12/show-art_hacking-culture%402x.jpg",
+    "url": "https://www.lullabot.com/rss/podcasts/hacking-culture",
+    "website": "https://www.lullabot.com"
+  },
+  {
+    "name": "DrupalEasy Podcast",
+    "picture": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/a2/79/ec/a279ec0f-7d9d-5dd9-7cf0-2e49472079ea/source/600x600bb.jpg",
+    "url": "http://feeds2.feedburner.com/DrupalEasyPodcast",
+    "website": "https://www.drupaleasy.com"
+  },
+  {
+    "name": "Talking Drupal",
+    "picture": "https://is4-ssl.mzstatic.com/image/thumb/Music6/v4/40/24/70/40247083-fbbc-f6ff-0e8d-d966e8c082af/source/600x600bb.jpg",
+    "url": "http://feeds.feedburner.com/TalkingDrupal",
+    "website": "http://www.talkingdrupal.com"
+  }
+]
