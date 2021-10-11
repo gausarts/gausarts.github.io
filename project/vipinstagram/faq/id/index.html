@@ -46,17 +46,19 @@
                     </header>
                     <div class="node__content clearfix">
                       <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                        <details>
-                          <summary>Di mana gambar dan video disimpan?</summary>
+                        <detail>
+                          <summary>Meningkatkan versi dari versi lama (v1.1)?</summary>
                           <div>
+                            Jika Anda tidak memutakhirkan dari versi lama, silakan lewati, jika tidak ikuti:
                             <ul>
-                              <li><b>Penyimpanan internal > Pictures|Movies > VIP Downloader</b></li>
-                              <li><b>SD card/penyimpanan luar > VIP Downloader > Pictures|Movies</b>)</li>
-                              <li>Atau folder pilihan Anda bila punya slot memory tambahan.</li>
+                              <li>Jalankan <b>Setting > Database > Backup database</b> jika belum, sebelum melakukan upgrade. Lakukan rutinitas ini nanti.</li>
+                              <li>Hanya copot pemasangan aplikasi lama jika ada masalah.</li>
+                              <li>Setelah menginstal ulang, atau tidak, jalankan <b>Setting > Database > Migrate to v1.2</b> atau yang lebih baru. Jika Anda tidak melihat opsi ini, tidak ada lagi yang bisa dilakukan.</li>
                             </ul>
-                            <p>Pastikan untuk mengaktifkan izin yang diminta. Jika tidak, percuma.</p>
+
+                            Data lama Anda akan termigrasi ke database baru jika ada perubahan skema besar yang rusak. Ini dapat dilakukan kapan saja bahkan setelah data baru tersedia, tidak masalah, selama Anda telah melakukan backup rutin.
                           </div>
-                        </details>
+                        </detail>
                         <details>
                           <summary>Beda gerbang Privat dan Publik?</summary>
                           <div>
@@ -228,36 +230,35 @@
                         <details>
                           <summary>Cara kerja sistem reward atau poin?</summary>
                           <div>
-                            <b>TODO</b>: Only applicable to FREE version to be eligible for scrapings. Tap the top-right corner reward icon, or keep watching when presented by the app features. <br><br>Everytime you watch a video ad after the countdown threshold met, you will earn 10 points. If you close it before the threshold, the feature (scraping, free watermarks, etc.) will not be executed.
+                            Hanya berlaku untuk versi GRATIS agar memenuhi syarat untuk kerokan. Ketuk ikon hadiah sudut kanan atas, atau terus menonton saat disajikan oleh fitur aplikasi. <br><br>Setiap kali Anda menonton iklan video setelah ambang batas hitung mundur terpenuhi, Anda akan mendapatkan 10 poin. Jika Anda menutupnya sebelum ambang batas, fitur (scraping, tanda air gratis, dll.) tidak akan dijalankan.
                             <ul>
-                              <li>1 download = 1 point at regular one-at-a-time download.</li>
-                              <li>Scraping requires some minimum points. Scraping can download 100 or 300 items at once if you meet the countdown threshold and minimum points.</li>
-                              <!-- <li>Ads-free requires 6000 points. No ads (banner or fullscreen ones) will be shown.</li> -->
+                              <li>1 unduhan = 1 poin untuk unduhan satu per satu reguler.</li>
+                              <li>Menggores membutuhkan beberapa poin minimum. Scraping dapat mengunduh 100 atau 300 item sekaligus jika Anda memenuhi ambang batas hitung mundur dan poin minimum.</li>
                             </ul>
 
-                            Those are the obvious advantages of the reward, or point system. <br><br>Shortly, when you have free time to be interrupted, be sure to keep earning points so that when you don't want interruptions, you are totally free of them. If you intend to download many per day, consider keeping your points above the minimum to get ads-free interruptions. <br><br>If you are sick of points, consider a PRO version.
+                            Itu adalah keuntungan nyata dari hadiah, atau sistem poin. <br><br>Singkatnya, ketika Anda memiliki waktu luang untuk diganggu, pastikan untuk terus mendapatkan poin sehingga ketika Anda tidak menginginkan gangguan, Anda benar-benar bebas darinya. Jika Anda berniat mengunduh banyak per hari, pertimbangkan untuk menjaga poin Anda di atas minimum untuk mendapatkan gangguan bebas iklan. <br><br>Jika Anda muak dengan poin, pertimbangkan versi PRO.
 
                           </div>
                         </details>
                         <details>
                           <summary>Versi GRATIS vs. PRO?</summary>
                           <div>
-                            <b>TODO</b>: Aside from ads, below are a few differences:
-                            <br><b>FREE:</b>
+                            Selain iklan, berikut adalah beberapa perbedaannya:
+                            <br><b>GRATIS:</b>
                             <ol>
-                              <li>Has reward or point system in return for app features.</li>
-                              <li>Scraper will be killed if the app is put into background or overview.</li>
-                              <li>Scraper will start at the end of countdown after watching video with the above-mentioned minimum points. If the video is closed before the countdown ends, no scraping spider will run.</li>
-                              <li>No watermark option is not saved.</li>
-                              <li>My watermark requires PRO.</li>
+                              <li>Memiliki sistem hadiah atau poin sebagai imbalan atas fitur aplikasi.</li>
+                              <li>Scraper akan dimatikan jika aplikasi diletakkan di latar belakang atau ringkasan.</li>
+                              <li>Scraper akan dimulai pada akhir hitungan mundur setelah menonton video dengan poin minimum yang disebutkan di atas. Jika video ditutup sebelum hitungan mundur berakhir, tidak ada laba-laba pengikis yang akan berjalan.</li>
+                              <li>Tidak ada opsi tanda air yang tidak disimpan.</li>
+                              <li>Tanda air saya membutuhkan PRO.</li>
                             </ol>
                             <br><b>PRO:</b>
                             <ol>
-                              <li>No hustle, no reward system.</li>
-                              <li>Scraper persists as long as the app is open, not destroyed.</li>
-                              <li>Scraper starts immediately.</li>
-                              <li>No watermark option is saved.</li>
-                              <li>My watermark replaces credits with yours.</li>
+                              <li>Tanpa keramaian, tanpa sistem penghargaan.</li>
+                              <li>Scraper tetap ada selama aplikasi dibuka, bukan dihancurkan.</li>
+                              <li>Scraper segera dimulai.</li>
+                              <li>Tidak ada opsi tanda air yang disimpan.</li>
+                              <li>Tanda air saya menggantikan kredit dengan milik Anda.</li>
                             </ol>
 
                           </div>
